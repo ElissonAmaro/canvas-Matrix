@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="100%" height="100%" fill="#000"/>
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f0" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- linhas de chuva simples -->
+  <g stroke="url(#g)" stroke-width="6" stroke-linecap="round">
+    <line x1="60" x2="60" y1="-20" y2="420" opacity="0.9"/>
+    <line x1="140" x2="140" y1="-20" y2="500" opacity="0.85"/>
+    <line x1="220" x2="220" y1="-20" y2="360" opacity="0.8"/>
+    <line x1="300" x2="300" y1="-20" y2="520" opacity="0.95"/>
+    <line x1="380" x2="380" y1="-20" y2="300" opacity="0.7"/>
+    <line x1="460" x2="460" y1="-20" y2="480" opacity="0.9"/>
+    <line x1="540" x2="540" y1="-20" y2="400" opacity="0.8"/>
+    <line x1="620" x2="620" y1="-20" y2="560" opacity="0.95"/>
+    <line x1="700" x2="700" y1="-20" y2="350" opacity="0.7"/>
+    <line x1="780" x2="780" y1="-20" y2="500" opacity="0.85"/>
+    <line x1="860" x2="860" y1="-20" y2="420" opacity="0.9"/>
+    <line x1="940" x2="940" y1="-20" y2="480" opacity="0.8"/>
+    <line x1="1020" x2="1020" y1="-20" y2="520" opacity="0.95"/>
+    <line x1="1100" x2="1100" y1="-20" y2="360" opacity="0.7"/>
+  </g>
+  <!-- texto central -->
+  <text x="50%" y="72%" font-family="monospace" font-size="48" fill="#0f0" text-anchor="middle" opacity="0.95">Preview — Chuva de Código</text>
+  <!-- alguns caracteres como detalhe -->
+  <g font-family="monospace" font-size="14" fill="#0f0" opacity="0.6">
+    <text x="40" y="60">010101</text>
+    <text x="120" y="90">101110</text>
+    <text x="200" y="130">001011</text>
+    <text x="280" y="180">110010</text>
+    <text x="360" y="220">010101</text>
+    <text x="440" y="260">101101</text>
+    <text x="520" y="300">100011</text>
+    <text x="600" y="340">011010</text>
+    <text x="680" y="380">110100</text>
+    <text x="760" y="140">010110</text>
+    <text x="840" y="200">101010</text>
+    <text x="920" y="240">001100</text>
+    <text x="1000" y="280">111000</text>
+  </g>
+</svg>
