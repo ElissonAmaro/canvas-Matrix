@@ -25,27 +25,32 @@ O projeto exibe uma chuva infinita de números (0-9) em verde neon, cascateando 
 git clone https://github.com/seu-usuario/canvas-matrix.git
 ```
 
+
 2. Abra o arquivo `index.html` diretamente no navegador:
 
-````bash
+
+
+
+
+
 
 Você pode facilmente personalizar o efeito editando as variáveis no código:
 
 ```javascript
 // Alterar os caracteres exibidos
-const letters = "0123456789".split("");  // Troque por letras, símbolos, etc.
+const letters = "0123456789".split(""); // Troque por letras, símbolos, etc.
 
 // Ajustar o tamanho da fonte
-const fontSize = 18;  // Valores maiores = caracteres maiores
+const fontSize = 18; // Valores maiores = caracteres maiores
 
-// Modificar a cor
-ctx.fillStyle = "#0F0";  // #0F0 = verde, experimente outras cores
+// Modificar a cor dos caracteres
+ctx.fillStyle = "#0F0"; // #0F0 = verde (estilo Matrix). Teste outras cores
 
 // Velocidade da animação
-setInterval(draw, 40);  // Valores menores = mais rápido
+setInterval(draw, 40); // Valores menores = animação mais rápida
 
-// Opacidade do rastro
-ctx.fillStyle = "rgba(0, 0, 0, 0.1)";  // Aumente 0.1 para rastros mais curtos
+// Opacidade do rastro (controle via fillStyle rgba no draw)
+// Exemplo: ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
 ```
 
 ## 🛠️ Tecnologias
@@ -74,4 +79,6 @@ Funciona em todos os navegadores modernos que suportam HTML5 Canvas:
 Autor: Elisson
 
 ---
-````
+
+
+
