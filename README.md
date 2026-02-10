@@ -20,12 +20,14 @@ O projeto exibe uma chuva infinita de números (0-9) em verde neon, cascateando 
 ## 🚀 Como Usar
 
 1. Clone este repositório:
+
 ```bash
 git clone https://github.com/seu-usuario/canvas-matrix.git
 ```
 
 2. Abra o arquivo `index.html` diretamente no navegador:
-```bash
+
+````bash
 
 Você pode facilmente personalizar o efeito editando as variáveis no código:
 
@@ -44,7 +46,7 @@ setInterval(draw, 40);  // Valores menores = mais rápido
 
 // Opacidade do rastro
 ctx.fillStyle = "rgba(0, 0, 0, 0.1)";  // Aumente 0.1 para rastros mais curtos
-```
+````
 
 ## 🛠️ Tecnologias
 
@@ -63,13 +65,12 @@ ctx.fillStyle = "rgba(0, 0, 0, 0.1)";  // Aumente 0.1 para rastros mais curtos
 ## 📱 Compatibilidade
 
 Funciona em todos os navegadores modernos que suportam HTML5 Canvas:
-- ✅ Chrome/Edge 
+
+- ✅ Chrome/Edge
 - ✅ Firefox
 - ✅ Safari
 - ✅ Opera
 
-
 Autor: Elisson
 
 ---
-
