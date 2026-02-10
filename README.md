@@ -17,7 +17,6 @@ O projeto exibe uma chuva infinita de números (0-9) em verde neon, cascateando 
 - ✅ Código limpo e comentado
 - ✅ Personalização fácil
 
-
 ## 🚀 Como Usar
 
 1. Clone este repositório:
@@ -75,3 +74,4 @@ Funciona em todos os navegadores modernos que suportam HTML5 Canvas:
 Autor: Elisson
 
 ---
+````
