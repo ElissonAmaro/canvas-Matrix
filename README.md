@@ -17,6 +17,7 @@ O projeto exibe uma chuva infinita de números (0-9) em verde neon, cascateando 
 - ✅ Código limpo e comentado
 - ✅ Personalização fácil
 
+
 ## 🚀 Como Usar
 
 1. Clone este repositório:
@@ -46,7 +47,7 @@ setInterval(draw, 40);  // Valores menores = mais rápido
 
 // Opacidade do rastro
 ctx.fillStyle = "rgba(0, 0, 0, 0.1)";  // Aumente 0.1 para rastros mais curtos
-````
+```
 
 ## 🛠️ Tecnologias
 
