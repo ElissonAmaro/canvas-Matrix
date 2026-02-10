@@ -22,7 +22,7 @@ O projeto exibe uma chuva infinita de números (0-9) em verde neon, cascateando 
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/canvas-matrix.git
+https://github.com/ElissonAmaro/canvas-Matrix.git
 ```
 
 
